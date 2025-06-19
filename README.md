@@ -1,2 +1,4 @@
 # fisica
-Compilación de trabajos de la materia de física y simulación
+## Materia académica 
+
+Recopilación de trabajos de la materia de física y simulación.
