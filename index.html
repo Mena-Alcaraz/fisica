@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Física y simulación</title>
+  <title>Mena Riggs | Portafolio</title>
 
+  <!-- Fuentes y librerías -->
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
@@ -27,6 +28,80 @@
       font-size: 1.1rem;
       color: #ccc;
     }
+
+    /* ====== SECCIÓN DE PRESENTACIÓN ====== */
+    .profile-section {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #f8f9fa;
+      color: #222;
+    }
+    .profile-section img {
+      width: 140px;
+      height: 140px;
+      border-radius: 30px;
+      margin-bottom: 20px;
+    }
+    .profile-section h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      color: #111;
+    }
+    .profile-section p {
+      color: #444;
+      font-size: 1rem;
+    }
+
+    .about-section {
+      background-color: #181828;
+      color: #fff;
+      padding: 60px 20px;
+    }
+    .about-section h2 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 20px;
+    }
+    .about-section p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: #ccc;
+    }
+
+    .info-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #f8f9fa;
+      padding: 40px 10px;
+    }
+    .info-card {
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      width: 280px;
+      margin: 15px;
+      text-align: center;
+      padding: 30px 20px;
+      transition: transform 0.3s ease;
+    }
+    .info-card:hover {
+      transform: translateY(-5px);
+    }
+    .info-card h4 {
+      color: #111;
+      margin-bottom: 15px;
+    }
+    .tag {
+      display: inline-block;
+      background-color: #007bff;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 8px;
+      margin: 3px;
+      font-size: 0.85rem;
+    }
+
+    /* ====== VIDEOS ====== */
     .video-card {
       background-color: #2a2a2a;
       border-radius: 16px;
@@ -45,6 +120,50 @@
   </style>
 </head>
 <body>
+
+  <!-- ====== PRESENTACIÓN ====== -->
+  <section class="profile-section">
+    <img src="tu-imagen.png" alt="Mena Riggs avatar"> <!-- Cambia por tu imagen -->
+    <h1>Hey! Mena Riggs here</h1>
+    <p>3D artist.</p>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section class="about-section">
+    <h2>About me</h2>
+    <p>I am currently a student of UVM in the career of animation engineering. My main area is 3D modeling and texturing!</p>
+  </section>
+
+  <!-- ====== INFO CARDS ====== -->
+  <section class="info-cards">
+    <div class="info-card" data-aos="fade-up">
+      <h4>Software</h4>
+      <div>
+        <span class="tag">Illustrator</span>
+        <span class="tag">Photoshop</span>
+        <span class="tag">Lightroom</span>
+        <span class="tag">Blender</span>
+        <span class="tag">Maya</span>
+      </div>
+    </div>
+    <div class="info-card" data-aos="fade-up" data-aos-delay="100">
+      <h4>Blender</h4>
+      <div>
+        <span class="tag">Modeling</span>
+        <span class="tag">Texturing</span>
+        <span class="tag">Digital sculpture</span>
+      </div>
+    </div>
+    <div class="info-card" data-aos="fade-up" data-aos-delay="200">
+      <h4>Student</h4>
+      <div>
+        <span class="tag">UVM</span>
+        <span class="tag">Game Engine</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FÍSICA Y SIMULACIÓN ====== -->
   <div class="container py-5">
     <h1 class="mb-3">Física y Simulación</h1>
     <h2 class="mb-4 text-secondary">Ingeniería en Animación e Interactividad</h2>
