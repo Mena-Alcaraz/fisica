@@ -149,6 +149,7 @@
       border-radius: 12px;
     }
 
+    /* ====== VARIOS ====== */
     .varios-section {
       background-color: #9b9b9b;
       padding: 60px 20px;
@@ -159,28 +160,29 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 20px;
+      gap: 25px;
     }
 
     .varios-item {
       background-color: #888;
       border-radius: 16px;
       overflow: hidden;
-      width: 280px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      width: 300px;
+      height: 300px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
     }
 
     .varios-item:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+      transform: scale(1.05) rotate(1deg);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
     }
 
-    .varios-item img, .varios-item video {
+    .varios-item img {
       width: 100%;
-      height: 200px;
+      height: 100%;
       object-fit: cover;
-      border-radius: 12px;
+      border-radius: 16px;
     }
 
     .contact-section a {
@@ -294,18 +296,24 @@
     </div>
   </section>
 
-  <!-- ====== VARIOS ====== -->
+  <!-- ====== VARIOS (solo modificada) ====== -->
   <section class="varios-section" data-aos="fade-up">
     <h2>Varios</h2>
     <div class="varios-gallery">
-      <div class="varios-item">
-        <video controls src="videos/Examen.mp4"></video>
+      <div class="varios-item" data-aos="zoom-in" data-aos-delay="100">
+        <img src="spider.png" alt="Varios 1">
       </div>
-      <div class="varios-item">
-        <img src="spider.png" alt="Varios 2">
+      <div class="varios-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="Mesa.png" alt="Varios 2">
       </div>
-      <div class="varios-item">
-        <video controls src="videos/Recorrido test.mp4"></video>
+      <div class="varios-item" data-aos="zoom-in" data-aos-delay="300">
+        <img src="Tetera.png" alt="Varios 3">
+      </div>
+      <div class="varios-item" data-aos="zoom-in" data-aos-delay="400">
+        <img src="Espejo.png" alt="Varios 4">
+      </div>
+      <div class="varios-item" data-aos="zoom-in" data-aos-delay="500">
+        <img src="Sillon.png" alt="Varios 5">
       </div>
     </div>
   </section>
